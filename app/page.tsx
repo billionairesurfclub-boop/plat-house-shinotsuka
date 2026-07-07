@@ -106,7 +106,7 @@ export default function Home() {
                   <div key={i} className="aspect-[4/3] overflow-hidden rounded-2xl bg-gray-200">
                     <img
                       src={src}
-                      alt={}
+                      alt={`施設写真 ${i + 1}`}
                       className="w-full h-full object-cover hover:scale-105 transition duration-300"
                       loading={i < 6 ? "eager" : "lazy"}
                     />
