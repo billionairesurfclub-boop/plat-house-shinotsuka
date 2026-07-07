@@ -9,6 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "gXHCgYW1liWYzDHLdMnZqsms3IllJliPGWeecgZRK5E",
+  },
   title: "ぷらっとハウス新大塚 | 新大塚・東池袋 民泊 最大8名 2タイプ客室",
   description:
     "新大塚駅・東池袋駅徒歩10分。80㎡3DK（最大8名）と18㎡スタジオ（最大2名）の2タイプ。Netflix・Nintendo Switch・10ギガインターネット・ドラム式洗濯機完備。駐車場あり（有料）。",
