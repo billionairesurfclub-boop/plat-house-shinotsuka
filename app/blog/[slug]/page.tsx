@@ -14,6 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | ぷらっとハウス新大塚`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://shinotsuka.plat-house.jp/blog/${slug}`,
+    },
   };
 }
 
