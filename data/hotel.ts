@@ -105,7 +105,7 @@ export const rooms = [
       ja: "コンパクトで使いやすいスタジオルーム。クイーンベッド1台でカップルや1名様のご利用に最適です。",
       en: "A compact and comfortable studio room with a queen bed. Ideal for couples or solo travelers.",
     },
-    images: [],
+    images: ["/images/room-b-studio-1.png"],
   },
 ];
 

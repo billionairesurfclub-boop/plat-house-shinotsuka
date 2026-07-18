@@ -72,6 +72,9 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-6">
               {rooms.map((room) => (
                 <div key={room.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition">
+                  <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                    <Image src={room.images[0]} alt={room.name.ja} fill className="object-cover" />
+                  </div>
                   <div className="p-6">
                     <h3 className="font-bold text-gray-900 text-lg mb-2">{room.name.ja}</h3>
                     <p className="text-sm text-gray-500 mb-3">{room.bedType.ja} · 最大{room.maxGuests}名</p>
